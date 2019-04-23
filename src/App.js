@@ -68,14 +68,14 @@ class Game extends React.Component {
   }
 
   jumpTo(step) {
-/*
+
     var list = document.getElementById("acoes");
     var quantidadeFilhos = list.children.length;
 
     while (list.children.length > 1) {
       list.removeChild(list.lastChild);
     }
-*/
+
     this.setState({
         stepNumber: step,
         xIsNext: (step % 2) === 0
